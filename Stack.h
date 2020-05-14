@@ -1,18 +1,20 @@
+//Amanda Espostio
+//Header File for a stack
 #include <iostream>
 #include <string>
 
 using namespace std;
 
 class FullStack{};
-
 class EmptyStack{};
-const int MAX_ITEMS=15; //max items in the list can be 15
 
-typedef int T;
-class StackType // declares the stacks functions
+const int MAX_ITEMS= 100; //max items in the list can be 100
+
+typedef int T; //generic types
+class Stack // declares the stacks functions
 {
 	public: 
-		StackType(); //constructer 
+		Stack(); //constructer 
 		bool IsEmpty() const;
 		void Push(T item);
 		void Pop();
