@@ -1,7 +1,6 @@
 #include <iostream>
 #include<fstream>
 #include "Stack.h"
-#include "sorting.h"
 
 using namespace std;
 
